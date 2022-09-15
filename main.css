@@ -1,0 +1,39 @@
+/* CUSTOM VARIABLES */
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --color-gray: #eee;
+  --color-dark-gray: #222831;
+}
+
+/* GLOBAL STYLES */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  font-family: inherit;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-blue) !important;
+  min-height: 100vh;
+}
+
+/* MAIN STYLING */
+
+.container__box {
+  height: 100vh;
+}
